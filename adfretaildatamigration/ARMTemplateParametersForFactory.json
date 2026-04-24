@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfretaildatamigration"
+		},
+		"LS_AzureKeyVault_properties_typeProperties_baseUrl": {
+			"value": "https://keyvaultRetail001.vault.azure.net/"
+		},
+		"LS_SqlServer_properties_typeProperties_server": {
+			"value": "DESKTOP-DEVAR3N"
+		},
+		"LS_SqlServer_properties_typeProperties_database": {
+			"value": "RetailDW"
+		},
+		"LS_SqlServer_properties_typeProperties_userName": {
+			"value": "Charan_ADF"
+		},
+		"LS_adls_properties_typeProperties_url": {
+			"value": "https://adlsretail001.dfs.core.windows.net"
+		}
+	}
+}
